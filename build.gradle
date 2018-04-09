@@ -1,6 +1,6 @@
 apply plugin: 'java'
 apply plugin: 'idea'
-//adding comment
+
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 version = '1.0'
