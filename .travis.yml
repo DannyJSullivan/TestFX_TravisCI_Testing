@@ -36,7 +36,7 @@ before_script:
   - if [[ "${TRAVIS_OS_NAME}" == osx ]]; then brew update; brew cask reinstall caskroom/versions/java8; fi
 
 script:
-  - ./gradlew check
+  - ./gradlew check --debug
 
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
