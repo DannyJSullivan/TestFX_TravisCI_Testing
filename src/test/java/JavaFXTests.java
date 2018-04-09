@@ -24,6 +24,8 @@ public class JavaFXTests extends ApplicationTest {
     @Override
     public void start(Stage stage) {
         stage.show();
+        stage.toFront();
+        stage.requestFocus();
     }
 
     //close after test so no other tests get messed up/IntelliJ (hopefully) doesn't crash
