@@ -39,6 +39,7 @@ public class JavaFXTests extends ApplicationTest {
     @Test
     public void printName() throws Exception {
         Thread.sleep(500);
+        moveTo("#printName");
         clickOn("#printName");
         verifyThat("#name", hasText("Danny Sullivan"));
     }
